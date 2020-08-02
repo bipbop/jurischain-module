@@ -6,6 +6,10 @@
   "scripts": {
     "build": "node ./lib-generate.js && tsc -b"
   },
+  "files": [
+    "dist",
+    "lib"
+  ],
   "author": "Lucas Fernando Amorim <lf.amorim@bipbop.com.br>",
   "license": "MIT",
   "devDependencies": {
