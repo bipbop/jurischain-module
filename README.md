@@ -1,6 +1,6 @@
 # jurischain-module
 
-Jurischain module is a JavaScript library for dealing with [Jurischain](https://www.jurischain.com.br/) as CJS module.
+Jurischain Module module is a JavaScript library for dealing with [Jurischain](https://www.jurischain.com.br/) as CJS module.
 
 ## Installation
 
