@@ -9,4 +9,4 @@ declare global {
     }
 }
 
-export default function (): void
+export function jurischain (): void

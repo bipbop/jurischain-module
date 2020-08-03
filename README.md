@@ -1,6 +1,6 @@
 # jurischain-module
 
-Jurischain Module module is a JavaScript library for dealing with [Jurischain](https://www.jurischain.com.br/) as CJS module.
+*jurischain-module* module is a JavaScript library for dealing with [Jurischain](https://www.jurischain.com.br/) as CJS module.
 
 ## Installation
 
@@ -13,9 +13,9 @@ npm install --save-dev jurischain-module
 ## Usage
 
 ```js
-const { solve: jurischainSolver } = require('jurischain-module')
+const { solve: jurischain } = require('jurischain-module')
 
-jurischainSolver({
+jurischain({
     seed: 'seed-xpto'
     difficulty: 10
 }).then((solution) => console.log(solution))

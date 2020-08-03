@@ -1,6 +1,6 @@
 {
   "name": "jurischain-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jurischain module is a JavaScript library for dealing with Jurischain as CJS module",
   "main": "dist/index.js",
   "scripts": {
@@ -13,9 +13,9 @@
   "author": "Lucas Fernando Amorim <lf.amorim@bipbop.com.br>",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.9.7",
     "js-beautify": "^1.11.0",
-    "jurischain": "^1.0.2"
+    "jurischain": "^1.0.2",
+    "typescript": "^3.9.7"
   },
   "dependencies": {}
 }
