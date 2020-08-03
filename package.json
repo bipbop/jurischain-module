@@ -1,7 +1,8 @@
 {
   "name": "jurischain-module",
-  "version": "1.0.1",
-  "description": "Jurischain module is a JavaScript library for dealing with Jurischain as CJS module",
+  "version": "1.0.2",
+  "description": "Jurischain module is a JavaScript library for dealing with Jurischain as ES module",
+  "module": "dist/index.js",
   "main": "dist/index.js",
   "scripts": {
     "build": "node ./lib-generate.js && tsc -b"

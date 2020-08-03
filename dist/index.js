@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.solve = void 0;
-const jurischain_runner_1 = require("../lib/jurischain-runner");
+import { jurischain } from '../lib/jurischain-runner';
 const queue = [];
 document.addEventListener('jurischain', (e) => {
     const customEvent = e;
@@ -13,9 +10,9 @@ document.addEventListener('jurischain', (e) => {
 function solveNext() {
     const { configuration } = queue[0];
     window.jurischain = configuration;
-    jurischain_runner_1.jurischain();
+    jurischain();
 }
-function solve(configuration) {
+export function solve(configuration) {
     return new Promise((resolve) => {
         const nextSolve = !queue.length;
         queue.push({ configuration, resolve });
@@ -23,4 +20,3 @@ function solve(configuration) {
             solveNext();
     });
 }
-exports.solve = solve;

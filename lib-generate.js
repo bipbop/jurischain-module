@@ -1,7 +1,7 @@
 const fs = require('fs')
 const { js } = require('js-beautify')
 
-const buffer = 'module.exports.jurischain = function jurischain() {' +
+const buffer = 'export function jurischain() {' +
     fs.readFileSync(require.resolve('jurischain'))
     + '};'
 
